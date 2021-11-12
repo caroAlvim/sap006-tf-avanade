@@ -103,3 +103,53 @@ section {
   display: flex;
   flex-direction: column;
 }
+
+@media(max-width: 667px) {
+
+  .title {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .subtitle {
+    margin: 2rem 0 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .camera {
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    box-shadow:
+    0 0 4px 6px #FFBC98,
+    0 0 12px 19px #FFE2D2;
+  }
+
+  .box {
+    margin-top: 4rem;
+  }
+
+  .qrscan{
+    width: 10rem;
+    margin-bottom: 3rem;
+  }
+
+  .info{
+    margin-top: 1.5rem;
+  }
+
+  .btnQr {
+    width: 15rem;
+    height: 3.5rem;
+    margin-top: 0;
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 667px) {
+
+  
+
+}

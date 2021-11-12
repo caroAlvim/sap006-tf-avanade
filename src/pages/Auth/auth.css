@@ -1,13 +1,15 @@
 @media(max-width: 667px) {
 
     .webcamCapture {
-      height: 290px;
+      height: 259px;
+      width: 375px;
     }
   
     .webcam {
       width: 10rem;
       height: 10rem;
-      border: none
+      border: none;
+      box-shadow: 0 0 4px 14px #ffbc98, 0 0 10px 33px #ffe2d2;
     }
   
   }

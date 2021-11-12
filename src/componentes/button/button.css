@@ -18,3 +18,15 @@
   align-items: center;
   cursor: pointer;
 }
+
+
+@media(max-width: 667px) {
+
+  .global-btn {
+    width: 15rem;
+    height: 3.5rem;
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+}
