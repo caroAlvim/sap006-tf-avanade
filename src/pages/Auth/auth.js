@@ -3,6 +3,7 @@ import React, { useRef, useCallback, useState } from "react";
 import { useHistory } from "react-router-dom";
 import Webcam from "react-webcam";
 import "./webcam.css";
+import "./auth.css";
 import "../../App.css";
 import "../qrscanner/Qrscanner.css";
 import { v4 as uuid } from "uuid";
