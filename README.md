@@ -1,12 +1,19 @@
 
 
-# FACE SCAN - Squad AVANADE
+# Face Scan - Squad AVANADE
 
 ### Talent Fest < Laboratória >
 
 Face Scan é uma aplicação web desenvolvida para realizar reconhecimento facial, identificar se uma pessoa está utilizando uma máscara corretamente.  
 
-Desenvolvido para o Talent Fest - Squad Avanade. Turma SAP006
+Desenvolvido para o Talent Fest - Turma SAP006 - Squad Avanade. 
+
+<div align='center'>
+  
+  <img width="500" alt="" src="./src/assets/mask-up.png"> 
+
+</div>
+
 
 ## Índice
 
@@ -25,23 +32,23 @@ Com a COVID-19 fica cada vez mais difícil para os estabelecimentos terem contro
 NORMAL.
 
 ### Product Backlog
-1 – Interface com integração com câmera para exibir ao usuário o que fazer;
-2 – Reconhecimento facial com identificação de máscara no rosto (restringir acesso de pessoas
-com máscara no queixo ou nariz de fora)
-3 –App com câmera
-4 – Leitura de QR Code do comprovante de vacinação
-5 – Consultar QR Code na nossa base de dados, se o QR Code estiver válido ele deixa passar com
-status liberado, se não estiver presente devemos deixar passar, mas com status de pendente validação
-manual, caso o QR Code não seja aprovado devemos barrar o acesso do usuário.
 
-### Face API (Validar se é esse mesmo o serviço)
+- Interface com integraçao com câmera para exibir ao usuário o que fazer;
+- Reconhecimento facial com identificação de máscara no rosto (restringir acesso de pessoas com máscara no queixo ou nariz de fora);
+- App com câmera;
+- Leitura de QR Code do comprovante de vaciação;
+- Consultar QR Code na nossa base de dados, se o QR Code estiver válido ele ele deixa passar com status liberado;
+- Se não estiver presente devemos deixar passar, mas com status de pendente validação manual, caso o QR Code não seja aprovado devemos barrar o acesso do usuário;
+
+
+### Cognetive Service | Face API 
 Uso do serviço cognitivo do Azure para reconhecer um rosto e o elemento máscara devidamente posicionado.
 Site/App. Para a criação de uma autorização é necessário o desenvolvimento de um site ou app com câmera para
 validar se a pessoa está usando a máscara corretamente, e posteriormente se a vacinação está em dia
 através do QRCode.
 
 
-## 3. Histórias de usuário
+## 2. Histórias de usuário
 
 #### [Historia de usuario 1] Verificação de uso correto da máscara de proteção
 
@@ -69,7 +76,7 @@ através do QRCode.
 
 ---
 
-## 4. Protótipo
+## 3. Protótipo
 
 ### Paleta de cores escolhida
 
@@ -80,7 +87,7 @@ através do QRCode.
 ![prototipo](./src/assets/prototipo.png)
 
 
-## 5. A aplicação
+## 4. A aplicação
 
 <div align='center'>
 
@@ -93,7 +100,7 @@ através do QRCode.
 
 </div>
 
-## 6. tecnologias utilizadas
+## 5. tecnologias utilizadas
 
 <div align="inline_block">
   <a href="https://github.com/caroAlvim">
@@ -111,10 +118,29 @@ através do QRCode.
   <img align="center" alt="github" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
   
 </div><br>
+  
+## Desenvolvedoras
+
+  
+:woman_technologist: [Camila Conte](https://github.com/caxconte)
+  
+:woman_technologist: [Carolina Alvim](https://github.com/caroAlvim)
+ 
+:woman_technologist: [Julli Mayanne](https://github.com/jjullimayanne)
+  
+:woman_technologist: [Larissa Vilela](https://github.com/larissavilelasobral)
+  
+:woman_technologist:[Mayara bezerra](https://github.com/mayarabezerra)
+  
+:woman_technologist: [Patricia Carvalho](https://github.com/crisbdev)
+  
+
+
 
 ## 
-<div align='center'>
+  
+<div align='center'><br>
 
-![stay-safe](./src/img/safety-first.gif)
+![stay-safe](./src/assets/safety-first.gif)
 
 </div>
