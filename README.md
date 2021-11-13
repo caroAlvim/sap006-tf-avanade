@@ -2,15 +2,15 @@
 
 # Face Scan - Squad AVANADE
 
-### Talent Fest < Laboratória >
+### Talent Fest SAP006 < Laboratória >
 
-Face Scan é uma aplicação web desenvolvida para realizar reconhecimento facial, identificar se uma pessoa está utilizando uma máscara corretamente.  
+Face Scan é uma aplicação web desenvolvida para realizar reconhecimento facial, identificar se uma pessoa está utilizando uma máscara corretamente e verificar se o QR Code do Certificado Nacional de Vacinação Covid-19 está validado.  
 
-Desenvolvido para o Talent Fest - Turma SAP006 - Squad Avanade. 
+Desenvolvido para o Talent Fest pelo Squad Avanade. 
 
 <div align='center'>
   
-  <img width="350" alt="" src="./src/assets/mask-up.gif"> 
+  <img width="300" alt="" src="./src/assets/mask-up.gif"> 
 
 </div>
 
