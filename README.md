@@ -10,7 +10,7 @@ Desenvolvido para o Talent Fest - Turma SAP006 - Squad Avanade.
 
 <div align='center'>
   
-  <img width="500" alt="" src="./src/assets/mask-up.png"> 
+  <img width="350" alt="" src="./src/assets/mask-up.gif"> 
 
 </div>
 
