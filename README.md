@@ -1,70 +1,120 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# FACE SCAN - Squad AVANADE
 
-In the project directory, you can run:
+### Talent Fest < Laboratória >
 
-### `yarn start`
+Face Scan é uma aplicação web desenvolvida para realizar reconhecimento facial, identificar se uma pessoa está utilizando uma máscara corretamente.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Desenvolvido para o Talent Fest - Squad Avanade. Turma SAP006
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Índice
 
-### `yarn test`
+- [1. Desafio](#1-desafio)
+- [2. Histórias de usuário](#2-histórias-de-usuário)
+- [3. Protótipo](#3-protótipo)
+- [4. A aplicação](#4-a-aplicação)
+- [5. tecnologias utilizadas](#5-tecnologias-utilizadas)
+- [Desenvolvedoras](#desenvolvedoras)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 1. Desafio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Com a COVID-19 fica cada vez mais difícil para os estabelecimentos terem controle sobre as pessoas que entram utilizando máscara e principalmente se estão com o programa vacinal completo. Pensando nisso precisamos desenvolver um aplicativo onde seja possível identificar se as pessoas estão utilizando a máscara e caso estejam utilizando precisamos identificar se elas estão com seus comprovantes de vacinação, dadas as limitações para validar o comprovante vacinal de forma automatizada, o comprovante será armazenado em uma base de dados (firebase) e o usuário será liberado em regime de contingência. Uma vez que a liberação foi feita o usuário passa a ter acesso
+NORMAL.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Product Backlog
+1 – Interface com integração com câmera para exibir ao usuário o que fazer;
+2 – Reconhecimento facial com identificação de máscara no rosto (restringir acesso de pessoas
+com máscara no queixo ou nariz de fora)
+3 –App com câmera
+4 – Leitura de QR Code do comprovante de vacinação
+5 – Consultar QR Code na nossa base de dados, se o QR Code estiver válido ele deixa passar com
+status liberado, se não estiver presente devemos deixar passar, mas com status de pendente validação
+manual, caso o QR Code não seja aprovado devemos barrar o acesso do usuário.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Face API (Validar se é esse mesmo o serviço)
+Uso do serviço cognitivo do Azure para reconhecer um rosto e o elemento máscara devidamente posicionado.
+Site/App. Para a criação de uma autorização é necessário o desenvolvimento de um site ou app com câmera para
+validar se a pessoa está usando a máscara corretamente, e posteriormente se a vacinação está em dia
+através do QRCode.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 3. Histórias de usuário
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### [Historia de usuario 1] Verificação de uso correto da máscara de proteção
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Eu, como usuário da aplicação, gostaria de verificar se minha máscara cobre nariz e boca adequadamente usando o reconhecimento facial.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##### Critérios de aceitação
 
-## Learn More
+- Acessar uma tela de inicial;
+- Reconhecer uso adequado da mascara, cobrindo totalmente boca e nariz;
+- Apresentar mensagem de erro caso o uso esteja inadequado;
+- Apresentar mensagem de sucesso, caso a mascara esteja cobrindo totalmenteo boca e nariz;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### [Historia de usuario 2] Verificação de QR Code do Certificado Nacional de Vacinação Covid-19
 
-### Code Splitting
+- Eu, como usuário da aplicação, gostaria de verificar se o QR Code está válido para acessar estabelecimento.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### Critérios de aceitação
 
-### Analyzing the Bundle Size
+- Acessar uma tela para escaneamento de QR COde;
+- Acessar banco de dados e verificar se registro do certificado está validado;
+- Apresentar mensagem de erro, caso não encontre o certificado;
+- Apresentar mensagem de sucesso, caso a certificado seja encontrado;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 4. Protótipo
 
-### Advanced Configuration
+### Paleta de cores escolhida
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![paleta-de-cores](./src/assets/paleta-de-cores.png)
 
-### Deployment
+### Protótipo desenvolvido usando Figma
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![prototipo](./src/assets/prototipo.png)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 5. A aplicação
+
+<div align='center'>
+
+### Reconhecimento facial do uso correto da máscara
+![face-scan](./src/assets/gif-com-mascara.gif)
+
+
+### Leitura do QR Code do certificado de vacinação
+![face-scan](./src/assets/gif-com-qr.gif)
+
+</div>
+
+## 6. tecnologias utilizadas
+
+<div align="inline_block">
+  <a href="https://github.com/caroAlvim">
+</div>
+  
+<div style="display: inline_block"><br>
+  <img align="center" alt="Azure" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" />
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+  <img align="center" alt="Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+  <img align="center" alt="vscode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+  <img align="center" alt="github" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+  
+</div><br>
+
+## 
+<div align='center'>
+
+![stay-safe](./src/img/safety-first.gif)
+
+</div>
