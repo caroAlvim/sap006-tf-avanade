@@ -89,6 +89,8 @@ através do QRCode.
 
 ## 4. A aplicação
 
+Desenvolvido para tablet (1024 X 1366)
+
 <div align='center'>
 
 ### Reconhecimento facial do uso correto da máscara
