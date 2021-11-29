@@ -15,6 +15,7 @@ import sucessfulIcon from "../../assets/check-icon.png";
 // import CamLogo from '../../assets/camera.png';
 import Footer from "../../componentes/footer/footer.jsx";
 import Loading from "../../componentes/loading/loading.jsx";
+import Animation from "../../componentes/initAnimation/animation";
 
 const videoConstraints = {
   width: 100,
@@ -30,6 +31,7 @@ const endpoint =
 function WebcamCapture() {
   const webcamRef = useRef(null);
   const [loading, setLoading] = useState(false);
+  const [animation, setAnimation] = useState(true);
 
   const [url, setUrl] = useState("");
   const [confirmModal, setConfirmModal] = useState(false);
@@ -46,6 +48,9 @@ function WebcamCapture() {
     window.location.reload()
   };
 
+  setTimeout(() => setAnimation(false), 3000)
+
+  
   const capture = useCallback(() => {
     const imageSrc = webcamRef.current.getScreenshot();
 
@@ -128,6 +133,9 @@ function WebcamCapture() {
         )}
       </div>
       <Footer />
+      
+      <Animation
+        isOpen={Boolean(animation)} />
 
       {/* abrir modal de Erro */}
       <Modal
