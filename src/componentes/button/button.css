@@ -30,3 +30,12 @@
   }
 
 }
+
+@media(min-width: 1200px) {
+  .global-btn {
+    width: 24rem;
+    height: 4rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}

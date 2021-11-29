@@ -148,8 +148,37 @@ section {
   }
 }
 
-@media(max-width: 667px) {
 
+@media(min-width: 1200px) {
+
+  .title {  
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.7rem;
+  }
+
+
+  .camera {
+    width: 14rem;
+    height: 14rem;
+    border: none;
+    box-shadow:
+    0 0 4px 6px #FFBC98,
+    0 0 12px 19px #FFE2D2;
+  }
+
+  .qrscan{
+    width: 13rem;
+  }
+
+  .btnQr {
+    width: 24rem;
+    height: 4rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
   
-
 }
