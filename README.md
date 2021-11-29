@@ -122,21 +122,67 @@ Desenvolvido para tablet (1024 X 1366)
 </div><br>
   
 ## Desenvolvedoras
-
-  
-:woman_technologist: [Camila Conte](https://github.com/caxconte)
-  
-:woman_technologist: [Carolina Alvim](https://github.com/caroAlvim)
- 
-:woman_technologist: [Julli Mayanne](https://github.com/jjullimayanne)
-  
-:woman_technologist: [Larissa Vilela](https://github.com/larissavilelasobral)
-  
-:woman_technologist:[Mayara bezerra](https://github.com/mayarabezerra)
-  
-:woman_technologist: [Patricia Carvalho](https://github.com/crisbdev)
   
 
+<table align="center">
+  <tr>
+      <td align="center">
+            <a href="https://github.com/caxconte">
+            <img src="https://avatars.githubusercontent.com/u/83038134?v=4" width="100px" alt="Foto de Camila Conte"/><br>
+            <sub>
+            <b>Camila Conte</b><br>
+            </sub>
+            </a>
+      </td>
+    <td align="center">
+      <a href="https://github.com/caroAlvim">
+        <img src="https://avatars.githubusercontent.com/u/62395871?v=4" width="100px;" alt="Foto de Carolina Alvim"/><br>
+        <sub>
+          <b>Carolina Alvim</b><br>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+            <a href="https://github.com/jjullimayanne">
+            <img src="https://avatars.githubusercontent.com/u/79465402?v=4" width="100px" alt="Foto de Julli Mayanne"/><br>
+            <sub>
+            <b>Julli Mayanne</b><br>
+            </sub>
+            </a>
+      </td>
+   
+  </tr>
+</table>
+
+<table align="center">
+      <tr>
+      <td>
+      <a href="https://github.com/larissavilelasobral">
+            <img src="https://avatars.githubusercontent.com/u/81869607?v=4" width="100px" alt="Foto de Larissa Vilela"/><br>
+            <sub>
+            <b>Larissa Vilela</b><br>
+            </sub>
+            </a>    
+      </td>
+      <td>
+            <a href="https://github.com/mayarabezerra">
+            <img src="https://avatars.githubusercontent.com/u/83085157?v=4" width="100px" alt="Foto de Mayara Bezerra"/><br>
+            <sub>
+            <b>Mayara Bezerra</b><br>
+            </sub>
+            </a>
+      </td>
+      <td>
+            <a href="https://github.com/crisbdev">
+            <img src="https://avatars.githubusercontent.com/u/80990793?v=4" width="100px" alt="Foto de Patricia Carvalho"/><br>
+            <sub>
+            <b>Patricia Carvalho</b><br>
+            </sub>
+            </a>
+      </td>
+      </tr>
+
+</table>
 
 
 ## 
