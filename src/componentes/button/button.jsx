@@ -1,5 +1,3 @@
-/* eslint-disable */
-/* eslint-disable react/prop-types */
 import React from 'react';
 import './button.css';
 
@@ -10,8 +8,12 @@ function Button({
 
 }) {
   return (
-
-    <button onClick={onClick} className={buttonClass}>{children}</button>
+    <button
+      onClick={onClick}
+      className={buttonClass}
+      type="submit"
+    > {children}
+    </button>
   );
 }
 

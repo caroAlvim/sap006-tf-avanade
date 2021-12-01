@@ -1,11 +1,10 @@
-/* eslint-disable  */
 import React from 'react';
-import waves from '../../assets/waves.png';
+import Waves from '../../assets/waves.png';
 import './footer.css';
 
 function Footer() {
   return (
-    <img src={waves} alt="waves orange" className="img" />
+    <img src={Waves} alt="waves orange" className="img" />
   );
 }
 

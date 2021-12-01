@@ -177,6 +177,8 @@ function WebcamCapture() {
       
     </section>
   );
-        }
+  
+}
+
 export default WebcamCapture;
 

@@ -100,7 +100,29 @@ Desenvolvido para tablet (1024 X 1366)
 ### Leitura do QR Code do certificado de vacinação
 ![face-scan](./src/assets/gif-com-qr.gif)
 
+<br>
+
+###  QR codes para testar
+
+<table align="center">
+  <tr>
+      <td align="center">
+            <img src="./src/assets/validacertidao_ok.png" width="100px" alt="QR code validado"/><br>
+            <sub>
+            <b>Vacinação Covid-19 em dia</b><br>
+            </sub>
+      </td>
+    <td align="center">
+        <img src="./src/assets/nao_validado.png" width="100px;" alt="QR code não validado"/><br>
+        <sub>
+          <b>Registro não encontrado </b><br>
+        </sub>
+    </td>
+  </tr>
+</table>
+
 </div>
+
 
 ## 5. tecnologias utilizadas
 
