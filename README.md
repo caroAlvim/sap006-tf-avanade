@@ -21,7 +21,7 @@ Desenvolvido para o Talent Fest pelo Squad Avanade.
 - [2. Histórias de usuário](#2-histórias-de-usuário)
 - [3. Protótipo](#3-protótipo)
 - [4. A aplicação](#4-a-aplicação)
-- [5. tecnologias utilizadas](#5-tecnologias-utilizadas)
+- [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
 - [Desenvolvedoras](#desenvolvedoras)
 
 ---
@@ -107,24 +107,24 @@ Desenvolvido para tablet (1024 X 1366)
 <table align="center">
   <tr>
       <td align="center">
-            <img src="./src/assets/validacertidao_ok.png" width="100px" alt="QR code validado"/><br>
+            <img src="./src/assets/validacertidao_ok.png" width="400px" alt="QR code validado"/><br>
             <sub>
             <b>Vacinação Covid-19 em dia</b><br>
             </sub>
       </td>
     <td align="center">
-        <img src="./src/assets/nao_validado.png" width="100px;" alt="QR code não validado"/><br>
+        <img src="./src/assets/nao_validado.png" width="400px;" alt="QR code não validado"/><br>
         <sub>
-          <b>Registro não encontrado </b><br>
+          <b>Registro de vacinação não encontrado </b><br>
         </sub>
     </td>
   </tr>
 </table>
 
-</div>
+</div><br>
 
 
-## 5. tecnologias utilizadas
+## 5. Tecnologias utilizadas
 
 <div align="inline_block">
   <a href="https://github.com/caroAlvim">
