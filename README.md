@@ -145,8 +145,14 @@ Desenvolvido para tablet (1024 X 1366)
   
 ## Desenvolvedoras
   
+A aplicação foi desenvolvida em três dias durante o 6º Talent Fest 2021 promovido pelo bootcamp < Laboratória >. 
+
+Gostariamos de agradecer todo o apoio da equipe da Avanade, especialmente a Luciana Ramos, Victor Fructuoso, Camila Ferreira Ribeiro e Henrique Eduardo. 
 
 <table align="center">
+  <div align='center'>
+      <h3> Squad Avanade </h3>
+  </div>
   <tr>
       <td align="center">
             <a href="https://github.com/caxconte">
