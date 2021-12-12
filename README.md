@@ -41,7 +41,7 @@ NORMAL.
 - Se não estiver presente devemos deixar passar, mas com status de pendente validação manual, caso o QR Code não seja aprovado devemos barrar o acesso do usuário;
 
 
-### Cognetive Services | Face API 
+### Cognetive Services | Microsoft Azure Face API 
 Uso do serviço cognitivo do Azure para reconhecer um rosto e o elemento máscara devidamente posicionado.
 Site/App. Para a criação de uma autorização é necessário o desenvolvimento de um site ou app com câmera para
 validar se a pessoa está usando a máscara corretamente, e posteriormente se a vacinação está em dia
